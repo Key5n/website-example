@@ -183,6 +183,7 @@ footer {
   color: #e5e5e5;
   padding: 16px 32px 48px;
   font-size: 0.8rem;
+  margin-top: 128px;
 }
 footer img {
   display: inline;
@@ -262,4 +263,10 @@ footer a:visited {
 
 main {
   margin-top: 20px;
+}
+
+.advertization {
+  font-size: 32px;
+  text-align: center;
+  margin: 128px 0;
 }
