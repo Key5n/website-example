@@ -38,7 +38,6 @@ a {
   align-items: center;
   justify-content: space-between;
   padding: 10px 0;
-
   cursor: pointer;
   width: 44px;
   height: 44px;
@@ -62,6 +61,7 @@ nav {
   top: 0;
   left: 0;
   z-index: 1;
+  background-color: #f5f5f5;
 }
 
 .icon {
@@ -122,8 +122,7 @@ nav {
 @media screen and (max-width: 599px) {
   nav {
     top: 0;
-    position: absolute;
-    background-color: #f5f5f5;
+    position: fixed;
   }
   .nav-links {
     top: -100vh;
@@ -236,6 +235,7 @@ footer a:visited {
 
 .initial-screen img {
   filter: blur(10px);
+  object-fit: cover;
 }
 
 .initial-screen__caption {
@@ -258,4 +258,8 @@ footer a:visited {
 
 .subsequent-screen {
   margin: 0 8px;
+}
+
+main {
+  margin-top: 20px;
 }
